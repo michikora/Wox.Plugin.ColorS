@@ -1,0 +1,12 @@
+{
+  "ID":"98E708098AD643A4954D8451244D92AD",
+  "ActionKeyword":"/colors",
+  "Name":"ColorS",
+  "Description":"A simple Colors viewer with python3.",
+  "Author":"Michikora",
+  "Version":"1.0.0",
+  "Language":"python",
+  "Website":"https://twitter.com/michikora",
+  "IcoPath": "icon\\colors.png",
+  "ExecuteFileName":"ColorS.py"
+}
