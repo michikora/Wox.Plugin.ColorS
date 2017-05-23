@@ -36,7 +36,7 @@ class ColorsViewer(Wox):
                 "IcoPath": "./icon/3f51b5.png",
             })
             result.append({
-                "Title": "blue",
+                "Title": "Blue",
                 "SubTitle": "#2196F3",
                 "IcoPath": "./icon/2196f3.png",
             })
