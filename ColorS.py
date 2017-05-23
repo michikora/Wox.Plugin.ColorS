@@ -119,7 +119,7 @@ class ColorsViewer(Wox):
             if os.path.isfile('./colors/convert/'+query.strip('#')+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/convert/'+query.strip('#')+'.png')
             result.append({
@@ -141,7 +141,10 @@ class ColorsViewer(Wox):
             rgb2Hex = map(int, rgb2Hex)
             rgb2Hex = tuple(rgb2Hex)
             for line in rgb2Hex:
-                colorHex += '%x' % line
+                isDigit = '%x' % line
+                if len(isDigit) == 1:
+                    isDigit = '0' + isDigit
+                colorHex += isDigit
             if os.path.isdir('./colors/convert'):
                 pass
             else:
@@ -149,7 +152,7 @@ class ColorsViewer(Wox):
             if os.path.isfile('./colors/convert/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, rgb2Hex)
                 colorThumb.save('./colors/convert/'+colorHex+'.png')
             result.append({

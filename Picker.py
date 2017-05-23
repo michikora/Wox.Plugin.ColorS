@@ -47,7 +47,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/red/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/red/'+colorHex+'.png')
             self.redPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -72,7 +72,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/pink/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/pink/'+colorHex+'.png')
             self.pinkPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -97,7 +97,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/purple/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/purple/'+colorHex+'.png')
             self.purplePicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -122,7 +122,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/deeppurple/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/deeppurple/'+colorHex+'.png')
             self.deeppurplePicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -147,7 +147,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/indigo/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/indigo/'+colorHex+'.png')
             self.indigoPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -172,7 +172,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/blue/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/blue/'+colorHex+'.png')
             self.bluePicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -197,7 +197,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/lightblue/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/lightblue/'+colorHex+'.png')
             self.lightbluePicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -222,7 +222,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/cyan/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/cyan/'+colorHex+'.png')
             self.cyanPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -247,7 +247,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/teal/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/teal/'+colorHex+'.png')
             self.tealPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -272,7 +272,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/green/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/green/'+colorHex+'.png')
             self.greenPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -297,7 +297,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/lightgreen/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/lightgreen/'+colorHex+'.png')
             self.lightgreenPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -322,7 +322,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/lime/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/lime/'+colorHex+'.png')
             self.limePicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -347,7 +347,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/yellow/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/yellow/'+colorHex+'.png')
             self.yellowPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -372,7 +372,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/amber/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/amber/'+colorHex+'.png')
             self.amberPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -397,7 +397,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/orange/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/orange/'+colorHex+'.png')
             self.orangePicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -422,7 +422,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/deeporange/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/deeporange/'+colorHex+'.png')
             self.deeporangePicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -447,7 +447,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/brown/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/brown/'+colorHex+'.png')
             self.brownPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -472,7 +472,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/grey/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/grey/'+colorHex+'.png')
             self.greyPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
@@ -497,7 +497,7 @@ class ColorsPicker:
             if os.path.isfile('./colors/bluegrey/'+colorHex+'.png'):
                 pass
             else:
-                thumbSize = (64, 64)
+                thumbSize = (2, 2)
                 colorThumb = Image.new('RGB', thumbSize, colorRGB)
                 colorThumb.save('./colors/bluegrey/'+colorHex+'.png')
             self.bluegreyPicker.append({'colorName':colorName, 'colorHex':colorHex, 'colorRGB':colorRGB})
