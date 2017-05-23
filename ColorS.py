@@ -451,6 +451,104 @@ class ColorsViewer(Wox):
                 })
             return result
 
+        else:
+            result.append({
+                "Title": "Red",
+                "SubTitle": "#F44336",
+                "IcoPath": "./icon/f44336.png",
+            })
+            result.append({
+                "Title": "Pink",
+                "SubTitle": "#E91E63",
+                "IcoPath": "./icon/e91e63.png",
+            })
+            result.append({
+                "Title": "Purple",
+                "SubTitle": "#9C27B0",
+                "IcoPath": "./icon/9c27b0.png",
+            })
+            result.append({
+                "Title": "Deeppurple",
+                "SubTitle": "#673AB7",
+                "IcoPath": "./icon/673ab7.png",
+            })
+            result.append({
+                "Title": "Indigo",
+                "SubTitle": "#3F51B5",
+                "IcoPath": "./icon/3f51b5.png",
+            })
+            result.append({
+                "Title": "Blue",
+                "SubTitle": "#2196F3",
+                "IcoPath": "./icon/2196f3.png",
+            })
+            result.append({
+                "Title": "Lightblue",
+                "SubTitle": "#03A9F4",
+                "IcoPath": "./icon/03a9f4.png",
+            })
+            result.append({
+                "Title": "Cyan",
+                "SubTitle": "#00BCD4",
+                "IcoPath": "./icon/00bcd4.png",
+            })
+            result.append({
+                "Title": "Teal",
+                "SubTitle": "#009688",
+                "IcoPath": "./icon/009688.png",
+            })
+            result.append({
+                "Title": "Green",
+                "SubTitle": "#4CAF50",
+                "IcoPath": "./icon/4caf50.png",
+            })
+            result.append({
+                "Title": "Lightgreen",
+                "SubTitle": "#8BC34A",
+                "IcoPath": "./icon/8bc34a.png",
+            })
+            result.append({
+                "Title": "Lime",
+                "SubTitle": "#CDDC39",
+                "IcoPath": "./icon/cddc39.png",
+            })
+            result.append({
+                "Title": "Yellow",
+                "SubTitle": "#FFEB3B",
+                "IcoPath": "./icon/ffeb3b.png",
+            })
+            result.append({
+                "Title": "Amber",
+                "SubTitle": "#FFC107",
+                "IcoPath": "./icon/ffc107.png",
+            })
+            result.append({
+                "Title": "Orange",
+                "SubTitle": "#FF9800",
+                "IcoPath": "./icon/ff9800.png",
+            })
+            result.append({
+                "Title": "Deeporange",
+                "SubTitle": "#FF5722",
+                "IcoPath": "./icon/ff5722.png",
+            })
+            result.append({
+                "Title": "Brown",
+                "SubTitle": "#795548",
+                "IcoPath": "./icon/795548.png",
+            })
+            result.append({
+                "Title": "Grey",
+                "SubTitle": "#9E9E9E",
+                "IcoPath": "./icon/9e9e9e.png",
+            })
+            result.append({
+                "Title": "Bluegrey",
+                "SubTitle": "#607D8B",
+                "IcoPath": "./icon/607d8b.png",
+            })
+            return result
+
     def copy_colorHex(self, colorHex):
         command = 'echo ' + colorHex.strip() + '| clip'
         os.system(command)
