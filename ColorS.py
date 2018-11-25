@@ -4,6 +4,9 @@ import re
 from PIL import Image
 from Picker import ColorsPicker
 from wox import Wox, WoxAPI
+# copy suportting, require `pywin32` package
+import win32clipboard as w
+import win32con as wc
 
 class ColorsViewer(Wox):
 
@@ -550,8 +553,10 @@ class ColorsViewer(Wox):
             return result
 
     def copy_colorHex(self, colorHex):
-        command = 'echo ' + colorHex.strip() + '| clip'
-        os.system(command)
+        w.OpenClipboard()
+        w.EmptyClipboard()
+        w.SetClipboardData(wc.CF_UNICODETEXT,colorHex.strip())
+        w.CloseClipboard()
 
 
 if __name__ == "__main__":
