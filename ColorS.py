@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import re
+import subprocess
 from PIL import Image
 from Picker import ColorsPicker
 from wox import Wox, WoxAPI
@@ -550,8 +551,13 @@ class ColorsViewer(Wox):
             return result
 
     def copy_colorHex(self, colorHex):
-        command = 'echo ' + colorHex.strip() + '| clip'
-        os.system(command)
+        #command = 'echo ' + colorHex.strip() + '| clip'
+        #os.system(command)
+        startupinfo = subprocess.STARTUPINFO()
+        startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+        startupinfo.wShowWindow = subprocess.SW_HIDE
+        clip = subprocess.Popen(['clip'], stdin=subprocess.PIPE, encoding='utf-8', startupinfo=startupinfo)
+        clip.communicate(input = colorHex.strip())
 
 
 if __name__ == "__main__":
